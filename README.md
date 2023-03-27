@@ -1,2 +1,2 @@
-# generating-nonphotorealistic-illustrations
-Generating non-photorealistic illustrations from images using digital image processing.
+# Generating Non-Photorealistic Illustrations from Images
+ Using digital image processing in MATLAB
