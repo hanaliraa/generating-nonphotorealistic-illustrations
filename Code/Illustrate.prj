@@ -1,0 +1,65 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3795618861" file="D:\OneDrive - Habib University\Fall 2021\Digital Image Processing\Project\Code\DIP_Project_05940\Illustrate.prj" location="D:\OneDrive - Habib University\Fall 2021\Digital Image Processing\Project\Code\DIP_Project_05940" name="Illustrate" target="target.mlapps" target-name="Package App">
+    <param.appname>Illustrate</param.appname>
+    <param.authnamewatermark>Hana Rashid</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>DIP Project Fall 2021</param.summary>
+    <param.description>Generate illustrations of objects from images.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>7122e833-7639-4179-b5c4-c24d3edbbd87</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Illustrate.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\rendering_gray.png</file>
+      <file>${PROJECT_ROOT}\res_here.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\OneDrive - Habib University\Fall 2021\Digital Image Processing\Project\Code" name="DIP_Project_05940" optional="false">D:\OneDrive - Habib University\Fall 2021\Digital Image Processing\Project\Code\DIP_Project_05940</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Software\MATLAB</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
